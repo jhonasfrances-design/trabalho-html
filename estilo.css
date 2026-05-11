@@ -1,0 +1,81 @@
+body{
+    font-family: Arial;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.topo{
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    width: 70px;
+}
+
+.pesquisa{
+    margin-top: 10px;
+}
+
+.pesquisa input{
+    padding: 5px;
+}
+
+.pesquisa button{
+    padding: 5px;
+}
+
+.corpo{
+    display: flex;
+}
+
+.menu{
+    width: 200px;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 8px;
+}
+
+.conteudo{
+    flex: 1;
+    padding: 15px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    background-color: #dddddd;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
